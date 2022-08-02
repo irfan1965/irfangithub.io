@@ -20,7 +20,7 @@ header{
    
     height: 100vh;
 
-    clip-path: polygon(0 0,100% 0,100% 100%,70% 80%, 0 100% );
+    /* clip-path: polygon(0 0,100% 0,100% 100%,70% 80%, 0 100% ); */
 
 }
 *{
@@ -79,8 +79,9 @@ header nav .left a:hover{
 .header{
     background-color: var(--dark);
     text-decoration: none;
-    height: 1000vh;
+    height: auto;
+    overflow-x : hidden
 
-    clip-path: polygon(0 0,100% 0,100% 100%,70% 80%, 0 100% );
+    /* clip-path: polygon(0 0,100% 0,100% 100%,70% 80%, 0 100% ); */
 
 }
